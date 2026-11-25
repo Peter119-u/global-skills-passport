@@ -1,0 +1,6 @@
+{
+  "name": "Global Skills Passport – Education Without Borders",
+  "description": "International education, competency-based skills training, credible certification pathways, and global employment connections for refugees and displaced communities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

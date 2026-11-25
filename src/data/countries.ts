@@ -1,0 +1,43 @@
+export interface CountryOption {
+  name: string;
+  dialCode: string;
+}
+
+export const COUNTRY_OPTIONS: CountryOption[] = [
+  { name: 'Kenya', dialCode: '+254' },
+  { name: 'Uganda', dialCode: '+256' },
+  { name: 'Ethiopia', dialCode: '+251' },
+  { name: 'Rwanda', dialCode: '+250' },
+  { name: 'Tanzania', dialCode: '+255' },
+  { name: 'Nigeria', dialCode: '+234' },
+  { name: 'Ghana', dialCode: '+233' },
+  { name: 'South Africa', dialCode: '+27' },
+  { name: 'Sudan', dialCode: '+249' },
+  { name: 'South Sudan', dialCode: '+211' },
+  { name: 'Somalia', dialCode: '+252' },
+  { name: 'Democratic Republic of the Congo', dialCode: '+243' },
+  { name: 'Egypt', dialCode: '+20' },
+  { name: 'Jordan', dialCode: '+962' },
+  { name: 'Lebanon', dialCode: '+961' },
+  { name: 'Turkey', dialCode: '+90' },
+  { name: 'Iraq', dialCode: '+964' },
+  { name: 'Syria', dialCode: '+963' },
+  { name: 'Pakistan', dialCode: '+92' },
+  { name: 'Bangladesh', dialCode: '+880' },
+  { name: 'Afghanistan', dialCode: '+93' },
+  { name: 'Ukraine', dialCode: '+380' },
+  { name: 'Poland', dialCode: '+48' },
+  { name: 'Germany', dialCode: '+49' },
+  { name: 'France', dialCode: '+33' },
+  { name: 'United Kingdom', dialCode: '+44' },
+  { name: 'Netherlands', dialCode: '+31' },
+  { name: 'Sweden', dialCode: '+46' },
+  { name: 'Norway', dialCode: '+47' },
+  { name: 'Canada', dialCode: '+1' },
+  { name: 'United States', dialCode: '+1' },
+  { name: 'Colombia', dialCode: '+57' },
+  { name: 'Brazil', dialCode: '+55' },
+  { name: 'Australia', dialCode: '+61' },
+  { name: 'India', dialCode: '+91' },
+  { name: 'Other / International', dialCode: '+' },
+];
